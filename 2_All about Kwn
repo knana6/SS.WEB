@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- !DOCTYPE+html: 문서 type 지정= 표준 문서라고 선언 -->
+<html lang="ko"> 
+    <!-- 한국어 쓸거다 -->
+
+<head> 
+    <!-- #head와 head 사이에 css나 javascript 연결해주는 내용 넣음 -->
+     
+    <meta charset="UTF-8"> 
+    <!-- #세계표준 인코딩 -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <!-- 최신ver실행 -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+</head>
+
+<body>
+
+    <h1>All About Known</h1>
+    <h4>최근 편집 날짜: 2024.07.18</h4>
+    <!-- 제목은 h1~26까지 점점 작아지는 크기 -->
+
+    <header>
+       
+        <nav> </nav>
+    </header>
+
+    <figure></figure>
+
+    <section>
+        <article><a href='https://github.com/knana6' target="'blank">Github</a></article>
+        <article><a href='https://github.com/knana6' target="blank">Github</a></article>
+        <article></article>
+        <article></article>
+    </section>
+
+        <p>p태그는 여러 문장을 하나의 문단으로 지정하는 태그이다. 그래서 여러 문장을 작성해야 한다. 오늘은 비가 아침부터 많이 오더니 지금은 비가 점점 그치고 있는 것 같다. 
+            근데 솔직히 p태그 별로 안 쓸 것 같고 h1~h6 이걸로 다 해먹을 수 있을 듯
+        </p>
+    <!-- span태그는 인라인 그룹화, p태그는 문단으로 만드는 태그 -->
+     <span>
+        <strong>To Be</strong> not <em> To Have</em><br/>
+        <img src="img/dice1.gif" alt="one">
+        <img src="img/dice2.gif" alt="two">
+        <img src="img/dice3.gif" alt="three">
+        <img src="img/dice2.gif" alt="two">
+        <img src="img/dice5.gif" alt="five">
+        <img src="img/dice2.gif" alt="two">
+
+        <!-- img 태그 쓰고 alt 불여줘야 하는 이유는 시각장애인을 위함 -->
+
+     </span><br/>
+     <a>This is a pen</a>
+    <footer></footer>
+
+    <ul>
+        <li>All I am as a men</li>
+        <li>Baby I built this House of Memories</li>
+        <li>So live a life that you'll REMEMBER</li>
+    </ul>
+
+    <ol>
+        <li>Today while the blossons </li>
+        <li>Still cling to the vine</li>
+        <li>I'll taste your strawberries</li>
+        <li>And I'll take your sweet wine</li>
+    </ol>
+
+    <label>  아이디</label>
+    <input type="text">
+
+    <label>  암호 </label>
+    <input type="password">
+
+
+    <h4> Programming Language </h4>
+    <label> Python </label>
+    <input type="checkbox" value="1">   
+    
+    <label> Javascript </label>
+    <input type="checkbox" value="2">
+
+    <label>  C++ </label>
+    <input type="checkbox" value="3">
+
+    <!-- type checkbox는 여러개 선택 가능 -->
+    <!-- type radiobox는 하나만 선택 가능 -->
+
+<h1></h1>
+
+    <label> choose your file </label>
+    <input type="file" value="4"><br/>
+
+<h1></h1>
+
+    <label> choose your color</label>
+    <input type="color" value="5"><br/>
+
+<h1></h1>
+
+    <label> choose the date</label>
+    <input type="date" value="6"><br/>
+    <!-- type file은 첨부 파일을 선택할 수 있도록 -->
+    <!-- type color은 색상을 선택할 수 있도록 -->
+    <!-- type datr는 날짜를 선택할 수 있도록 -->
+
+<h1></h1>
+
+    <select>
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>Javascript</option>
+    </select>
+
+    <!-- select태그는 드롭다운 항목을 보여줌 -->
+
+<h1></h1>
+
+    <form action='전송위치' method="post">
+        <label> id </label>
+        <input type="text">
+
+        <label> password </label>
+        <input type="password">
+
+        <input type="reset">
+        <input type="submit">
+
+    </form>
+
+
+</body>
+</html>
