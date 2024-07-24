@@ -1,0 +1,63 @@
+@charset "utf-8"; 
+/* 한글을 지원한다는 의미 */
+* {
+    border: 1px solid white;
+}
+/* * 는 전체 요소 태그 */
+h1{ 
+    border: 1px solid whitesmoke;
+}
+/* h1, h2, h3, p, a 선택 */
+p{
+    border: 1px solid blue;
+}
+a strong{
+    border: 2px solid rgb(92, 183, 137);
+}
+/* a 안에 있는 strong 지칭 */
+/* 자식 요소. 나란히 쓰는것--자식 요소+하위요소all */
+ul li{
+    border: 3px solid ghostwhite;
+    
+}
+ul > li > ol > li{
+    border: 1px solid blanchedalmond;
+}
+/*
+자식 vs 자손 
+1 자식요소: '>' 이용, 부모 요소의 직접 자식 요소 하나만
+2 자손요소: ' ' 이용, 부모 요소의 모든 자손 일일히
+ */
+h4,h5{
+    color:cadetblue;
+    border: 1px solid rgb(165, 206, 228);
+}
+/* 콤마로 모든 요소를 pick할 수 있다 */
+
+ul li :nth-of-type(1) {
+    border: 1px solid royalblue;
+}
+
+/* 
+: nth of thpe() 유의사항<< 모든 경우 확인 
+ul li:nth-of-type(1) 선택자는 모든 li 요소의 첫번째 자식 요소를 선택.
+따라서 ol>li 요소도 선택되는 것 !
+
+짝수요소 선택- 2n , even <=> 2n-1, odd
+k의 배수 요소 선택: kn
+*/
+
+ul li :nth-of-type(2) {
+    border: 2px solid cyan;
+}
+
+input[type="text"]{
+    border: 1px solid orange;
+}
+input[type="password"]{
+    border: 1px solid red;
+}
+/* 
+오류: password 창만 border 가 생김
+해결: input[] inputV[] 차이. 공백이 있으면 안됨
+ */
