@@ -61,3 +61,52 @@ input[type="password"]{
 오류: password 창만 border 가 생김
 해결: input[] inputV[] 차이. 공백이 있으면 안됨
  */
+
+h3{
+    border: 1px solid blue;
+}
+h3:hover{
+    border: 1px solid red;
+}
+/* 
+:hover 은 마우스 올려놨을 때 스타일 적용하라는 의미
+*/
+
+h3:before{
+    content: "Good morning ";
+    color:crimson;
+}
+
+h3:after{
+    content:" Good night";
+    color:fuchsia;
+}
+
+p.type1 {
+    border: 1px solid bluseviolet;
+}
+
+p.type2 {
+    border: 1px solid magenta;
+}
+
+/* 같은 p태그라도 클래스를 분류해 놓으면 각각 다른 css를 적용시킬 수 있다 */
+
+/* 
+id 와 class 의 차이점
+id: class 보다 우선시됨, 자바스크립트와 연결됨
+class: 여러요소에 동일한 스타일링 적용할때 쓰임, 자바스크립트와 직접 상호작용은 아님,
+메서드를 이용해서 상호작용함
+*/
+
+#header {
+    border: 1px solid rebeccapurple;
+}
+
+#section {
+    border: 1px solid indianred;
+}
+
+#footer {
+    border: 1px solid orangered;
+}
