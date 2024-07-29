@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* 한글을 지원한다는 의미 */
+h1 {
+    font-weight: normal;
+}
+p span {
+    font-weight: bold;
+}
+article h1 {
+    font-size: 20px;
+}
+article p {
+    font-size: 15px;
+}
