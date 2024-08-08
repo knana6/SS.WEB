@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>설문조사</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/cgi-bin/sheet.perl" method="POST">
+    <p>설문 조사</p>
+    <p>성별</p>
+    <p>
+        <input type="radio" name="seibetsu" value="남성">남성
+        <input type="radio" name="seibetsu" value="여성">여성
+    
+    </p>
+    <p>나이</p>
+    <p>
+        <input type="text"name="age">
+    </p>
+    <p>그림책을 알게 된 계기는?</p>
+    <p>
+    <select name="kikkake">
+        <option value="서점에서 봤다">서점에서 봤다</option>
+        <option value="지인의 소개">지인의 소개</option>
+        <option value="인터넷에서 알게 되었다">인터넷에서 알게 되었다</option>
+    </select>
+    </p>
+    <p>의견이나 감상이 있으면 남겨주세요.</p>
+    <p>
+        <textarea name="kansou" cols="50" rows="10" placeholder="소중한 의견을 기다립니다."></textarea>
+    </p>
+    <p><input type="submit" value="보내기"></p>
+    </form>
+    
+</body>
+</html>
